@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <h1>Counter {counter}</h1>
 
-      <button onClick={() => increment(5)}>+</button>
-      <button onClick={() => decrement(5)}>-</button>
+      <button onClick={() => increment(10)}>+</button>
+      <button onClick={() => decrement(10)}>-</button>
 
       {isLogged ? <h3>Valuable Information I shouldn't see</h3> : ""}
       <button onClick={logHandler}>Login</button>

@@ -6,11 +6,11 @@ const AppProvider = ({ children }) => {
   const [counter, setCounter] = useState(0);
   const [isLogged, setIsLogged] = useState(false);
 
-  const increment = (y) => {
-    setCounter(x => x + y);
+  const increment = (b) => {
+    setCounter(a => a + b);
   };
   const decrement = (y) => {
-    setCounter(x => x - y);
+    setCounter(a => a - b);
   };
 
   const logHandler = () => {
